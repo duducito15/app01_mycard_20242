@@ -7,7 +7,7 @@ void main(List<String> args) {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.indigo,
         body: Column(
@@ -16,9 +16,10 @@ class MyApp extends StatelessWidget {
             CircleAvatar(
               radius: 60.0,
               backgroundColor: Colors.white54,
-              backgroundImage: NetworkImage(
-                "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-              ),
+              backgroundImage: AssetImage("assets/images/persona2.jpg"),
+              //NetworkImage(
+              //  "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              // ),
             ),
             Text(
               "Fiorella de Fátima Guadalupe",
