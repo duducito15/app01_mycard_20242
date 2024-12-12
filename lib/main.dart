@@ -25,8 +25,9 @@ class MyApp extends StatelessWidget {
               "Fiorella de Fátima Guadalupe",
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 22.0,
-                fontWeight: FontWeight.w700,
+                fontSize: 24.0,
+                fontWeight: FontWeight.w500,
+                fontFamily: "Lobster",
               ),
             ),
             Text(
